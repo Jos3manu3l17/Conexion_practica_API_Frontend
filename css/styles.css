@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d4d3d3;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    /* transform: scale(1.05); */
+}
+
+#listaUsuarios {
+    margin-top: 25px;
+}
+
+.usuario {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.formulario-usuarios {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-usuarios:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.formulario-usuarios h2 {
+    font-size: 2em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: auto;
+}
+
+.input-formulario {
+    padding: 10px;
+    border: 1px solid #686666;
+    border-radius: 7px;
+}
+
+.input-formulario:focus {
+    outline: none;
+    border-color: #00fbff;
+    box-shadow: 0 0 5px rgba(0, 251, 255, 0.5);
+}
+
+.btn-form {
+    padding: 10px 20px;
+    max-width: 30%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn-form:hover {
+    background-color: #ccc;
+}
+
+.Mensaje-Rejistro {
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: bold;
+}

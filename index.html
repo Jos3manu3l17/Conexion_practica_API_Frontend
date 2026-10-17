@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cargar Usuarios</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head> 
+<body>
+    <main class="contenedor">
+        <h1>Usuarios</h1>
+        <p>
+            Usuarios registrados en mi base de datos
+        </p>
+        <button class="btn" id="btnCargar">
+            Cargar usuarios
+        </button>
+        <section id="listaUsuarios"></section>
+    </main>
+    
+<section class="formulario-usuarios">
+    <h2>Registrar nuevo usuario</h2>
+
+    <form class="formulario" id="formularioUsuario">
+        <div>
+            <label for="nombre">Nombre completo</label>
+            <input
+            class="input-formulario"
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ej. Carlos Ramírez"
+                required
+            >
+        </div>
+
+        <div>
+            <label for="correo">Correo electrónico</label>
+            <input
+            class="input-formulario"
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="Ej. carlos@gmail.com"
+                required
+            >
+        </div>
+
+        <button type="submit" class="btn-form">Registrar usuario</button>
+    </form>
+
+    <p id="mensajeRegistro" class="Mensaje-Rejistro"></p>
+</section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
