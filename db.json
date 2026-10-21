@@ -1,0 +1,39 @@
+{
+    "Usuarios": [
+  {
+    "correo": "juan@gmail.com",
+    "idUsuario": 1,
+    "nombre": "Juan Pérez"
+  },
+  {
+    "correo": "maria@gmail.com",
+    "idUsuario": 2,
+    "nombre": "María López"
+  },
+  {
+    "correo": "jose@gmail.com",
+    "idUsuario": 3,
+    "nombre": "Jose Manuel"
+  },
+  {
+    "correo": "andres123@gmail.com",
+    "idUsuario": 4,
+    "nombre": "Andres Diaz"
+  },
+  {
+    "correo": "josemanuel@gmail.com",
+    "idUsuario": 5,
+    "nombre": "Jose Manuel Carreño"
+  },
+  {
+    "correo": "carlos@gmail.com",
+    "idUsuario": 6,
+    "nombre": "Carlos Martinez"
+  },
+  {
+    "correo": "felipe@gmail.com",
+    "idUsuario": 7,
+    "nombre": "Felipe delgado"
+  }
+]
+}
